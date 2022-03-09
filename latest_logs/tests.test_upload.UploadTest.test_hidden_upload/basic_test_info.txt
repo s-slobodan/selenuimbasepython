@@ -1,0 +1,25 @@
+test_upload.py::UploadTest::test_hidden_upload
+--------------------------------------------------------------------
+Last Page: https://practice.automationbro.com/cart/
+  Browser: chrome (99.0.4844.51 / headless)
+   Driver: chromedriver (99.0.4844.51)
+Timestamp: 1646857599  (Unix Timestamp)
+     Date: Wednesday, 9 March 2022
+     Time: 9:26:39 PM  (CEST, UTC+01:00)
+--------------------------------------------------------------------
+Traceback: File "/usr/lib/python3.9/unittest/case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.9/unittest/case.py", line 550, in _callTestMethod
+    method()
+  File "/home/slobodan/PycharmProjects/setest/tests/test_upload.py", line 40, in test_hidden_upload
+    self.assert_text("uploaded successfully", "#wfu_messageblock_header_1_label_1")
+  File "/home/slobodan/PycharmProjects/setest/venv/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py", line 9472, in assert_text
+    self.wait_for_text_visible(text, selector, by=by, timeout=timeout)
+  File "/home/slobodan/PycharmProjects/setest/venv/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py", line 9398, in wait_for_text_visible
+    return page_actions.wait_for_text_visible(
+  File "/home/slobodan/PycharmProjects/setest/venv/lib/python3.9/site-packages/seleniumbase/fixtures/page_actions.py", line 452, in wait_for_text_visible
+    timeout_exception(NoSuchElementException, message)
+  File "/home/slobodan/PycharmProjects/setest/venv/lib/python3.9/site-packages/seleniumbase/fixtures/page_actions.py", line 163, in timeout_exception
+    raise exception(message)
+Exception: Message: 
+ Element {#wfu_messageblock_header_1_label_1} was not present after 6 seconds!

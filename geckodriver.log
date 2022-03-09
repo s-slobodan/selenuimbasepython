@@ -1,0 +1,26 @@
+1646857426162	geckodriver	INFO	Listening on 127.0.0.1:42123
+1646857426165	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47983" "-no-remote" "-profile" "/tmp/rust_mozprofileN36Xr1"
+1646857426724	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileN36Xr1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47983/devtools/browser/f7367259-7aa5-400f-b71a-0f4b256587a9
+1646857427838	Marionette	INFO	Listening on port 34051
+1646857427880	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practice.automationbro.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1646857438621	Marionette	INFO	Stopped listening on port 34051
+1646857448506	geckodriver	INFO	Listening on 127.0.0.1:41047
+1646857448509	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38823" "-no-remote" "-profile" "/tmp/rust_mozprofilelLS6HS"
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+ATTENTION: default value of option mesa_glthread overridden by environment.
+1646857449106	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelLS6HS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38823/devtools/browser/6dac2511-e340-4a10-aad6-ba903a4ece8c
+1646857450168	Marionette	INFO	Listening on port 44469
+1646857450226	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://practice.automationbro.com"
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1646857460481	Marionette	INFO	Stopped listening on port 44469

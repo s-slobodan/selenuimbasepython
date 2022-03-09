@@ -1,0 +1,25 @@
+test_contact.py::ContactTest::test_contact_page
+--------------------------------------------------------------------
+Last Page: https://practice.automationbro.com/contact/
+  Browser: chrome (99.0.4844.51 / headless)
+   Driver: chromedriver (99.0.4844.51)
+Timestamp: 1646857606  (Unix Timestamp)
+     Date: Wednesday, 9 March 2022
+     Time: 9:26:46 PM  (CEST, UTC+01:00)
+--------------------------------------------------------------------
+Traceback: File "/usr/lib/python3.9/unittest/case.py", line 592, in run
+    self._callTestMethod(testMethod)
+  File "/usr/lib/python3.9/unittest/case.py", line 550, in _callTestMethod
+    method()
+  File "/home/slobodan/PycharmProjects/setest/tests/test_contact.py", line 26, in test_contact_page
+    self.assert_text('Thanks for contacting us We will be in touch with you shortly', 'div[role=alert]')
+  File "/home/slobodan/PycharmProjects/setest/venv/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py", line 9472, in assert_text
+    self.wait_for_text_visible(text, selector, by=by, timeout=timeout)
+  File "/home/slobodan/PycharmProjects/setest/venv/lib/python3.9/site-packages/seleniumbase/fixtures/base_case.py", line 9398, in wait_for_text_visible
+    return page_actions.wait_for_text_visible(
+  File "/home/slobodan/PycharmProjects/setest/venv/lib/python3.9/site-packages/seleniumbase/fixtures/page_actions.py", line 458, in wait_for_text_visible
+    timeout_exception(ElementNotVisibleException, message)
+  File "/home/slobodan/PycharmProjects/setest/venv/lib/python3.9/site-packages/seleniumbase/fixtures/page_actions.py", line 163, in timeout_exception
+    raise exception(message)
+Exception: Message: 
+ Expected text {Thanks for contacting us We will be in touch with you shortly} for {div[role=alert]} was not visible after 6 seconds!
